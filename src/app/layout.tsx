@@ -30,7 +30,8 @@ export default function RootLayout({
       >
         <Theme appearance="light" accentColor="cyan" radius="full">
           {children}
-          <ThemePanel />
+          {/* This ThemePanel can customize your theme dynamically. press Ctrl + T in Website */}
+          <ThemePanel />  
           </Theme>
       </body>
     </html>
